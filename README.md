@@ -91,7 +91,7 @@ ProdukTokoApp
 
 1. Clone repository ini:
    ```bash
-   git clone https://github.com/USERNAME/NAMA-REPO.git](https://github.com/Irayha/Aplikasi-Toko-Sederhana/tree/main
+   https://github.com/Irayha/Aplikasi-Toko-Sederhana/tree/main
    ```
 2. Buka NetBeans, pilih **File > Open Project**, lalu pilih folder proyek.
 3. Klik kanan project, pilih **Reload POM**, dan tunggu dependensi JavaFX terunduh.
