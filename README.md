@@ -117,9 +117,9 @@ Tambahkan minimal tiga produk, misalnya:
 
 | Kode | Nama | Kategori | Harga |
 |------|------|----------|-------|
-| P001 | Roti Coklat | Makanan | 5000 |
+| P001 | Seblak | Makanan | 10000 |
 | P002 | Teh Botol | Minuman | 4000 |
-| P003 | Keripik Singkong | Makanan | 8000 |
+| P003 | Mie Jebew | Makanan | 8000 |
 
 Lalu periksa:
 
