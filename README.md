@@ -7,25 +7,60 @@ Aplikasi desktop sederhana berbasis **JavaFX** untuk mencatat produk toko (makan
 ### Halaman Daftar Produk
 Menampilkan tabel produk, kolom pencarian, serta tombol Tambah Produk dan Lihat Detail.
 
+<p align="center">
+  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+
+</p>
+
+---
+
 
 
 ### Halaman Tambah Produk
 Form untuk mengisi kode, nama, kategori, dan harga produk.
+
+<p align="center">
+  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+
+</p>
+
+---
 
 
 
 ### Validasi Input
 Nama kosong atau harga tidak valid akan ditolak dengan pesan kesalahan.
 
+<p align="center">
+  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+
+</p>
+
+---
+
 
 
 ### Hasil Pencarian
 Produk dicari berdasarkan nama melalui tombol **Cari**.
 
+<p align="center">
+  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+
+</p>
+
+---
+
 
 
 ### Halaman Detail Produk
 Menampilkan data produk yang dipilih dari tabel.
+
+<p align="center">
+  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+
+</p>
+
+---
 
 
 
