@@ -1,0 +1,265 @@
+/* =====================================================
+   PALET: Ocean Blue (simpel, flat, bersih)
+   Biru utama   #1E6FD9
+   Biru tua     #0F2A47   (header)
+   Biru muda    #EAF3FF   (permukaan)
+   Garis tepi   #D6E4F5
+   Latar        #F5F9FF
+   Teks         #1B2B3F
+   Teks redup   #6B7C93
+   ===================================================== */
+
+.root-pane {
+    -fx-background-color: #F5F9FF;
+    -fx-font-family: "Segoe UI", Arial, sans-serif;
+    -fx-font-size: 14px;
+}
+
+.label {
+    -fx-text-fill: #1B2B3F;
+}
+
+/* ---------- Header (bar biru di atas) ---------- */
+.header {
+    -fx-background-color: #0F2A47;
+    -fx-padding: 22 28 22 28;
+    -fx-border-color: #1E6FD9;
+    -fx-border-width: 0 0 3 0;
+}
+
+.judul {
+    -fx-font-size: 26px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.subjudul {
+    -fx-font-size: 13px;
+    -fx-text-fill: #9DB9DB;
+}
+
+/* ---------- Konten & kartu ---------- */
+.konten {
+    -fx-padding: 24 28 24 28;
+}
+
+.kartu {
+    -fx-background-color: white;
+    -fx-background-radius: 8;
+    -fx-border-color: #D6E4F5;
+    -fx-border-radius: 8;
+    -fx-padding: 20;
+}
+
+.field-label {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #6B7C93;
+}
+
+/* ---------- Input ---------- */
+.text-field {
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #C9D9EE;
+    -fx-border-radius: 6;
+    -fx-padding: 9 12 9 12;
+    -fx-prompt-text-fill: #A3B3C8;
+    -fx-text-fill: #1B2B3F;
+}
+
+.text-field:focused {
+    -fx-border-color: #1E6FD9;
+    -fx-effect: dropshadow(gaussian, rgba(30, 111, 217, 0.25), 6, 0.2, 0, 0);
+}
+
+.combo-box {
+    -fx-background-color: white;
+    -fx-background-radius: 6;
+    -fx-border-color: #C9D9EE;
+    -fx-border-radius: 6;
+    -fx-padding: 3 4 3 8;
+}
+
+.combo-box:focused {
+    -fx-border-color: #1E6FD9;
+}
+
+.combo-box .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: #1B2B3F;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box .arrow {
+    -fx-background-color: #1E6FD9;
+}
+
+.combo-box-popup .list-view {
+    -fx-background-color: white;
+    -fx-border-color: #D6E4F5;
+}
+
+.combo-box-popup .list-view .list-cell {
+    -fx-padding: 9 12 9 12;
+    -fx-text-fill: #1B2B3F;
+}
+
+.combo-box-popup .list-view .list-cell:filled:hover,
+.combo-box-popup .list-view .list-cell:filled:selected {
+    -fx-background-color: #EAF3FF;
+    -fx-text-fill: #0F2A47;
+}
+
+/* ---------- Tombol ---------- */
+.tombol {
+    -fx-background-color: #1E6FD9;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-padding: 9 22 9 22;
+    -fx-cursor: hand;
+}
+
+.tombol:hover {
+    -fx-background-color: #1558B0;
+}
+
+.tombol:pressed {
+    -fx-background-color: #0F4590;
+}
+
+.tombol-sekunder {
+    -fx-background-color: white;
+    -fx-text-fill: #1E6FD9;
+    -fx-font-weight: bold;
+    -fx-background-radius: 6;
+    -fx-border-color: #1E6FD9;
+    -fx-border-radius: 6;
+    -fx-padding: 8 21 8 21;
+    -fx-cursor: hand;
+}
+
+.tombol-sekunder:hover {
+    -fx-background-color: #EAF3FF;
+}
+
+/* ---------- Tabel ---------- */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #D6E4F5;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 0;
+    -fx-table-cell-border-color: transparent;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #EAF3FF;
+}
+
+.table-view .column-header,
+.table-view .filler {
+    -fx-background-color: transparent;
+    -fx-size: 40;
+    -fx-border-color: transparent;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #0F2A47;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.table-view .placeholder .label {
+    -fx-text-fill: #A3B3C8;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-cell-size: 40;
+    -fx-border-color: transparent transparent #EEF3FA transparent;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #F5F9FF;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #D9EAFF;
+}
+
+.table-cell {
+    -fx-padding: 0 12 0 12;
+    -fx-alignment: CENTER-LEFT;
+    -fx-text-fill: #1B2B3F;
+}
+
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: #0F2A47;
+}
+
+/* ---------- Scrollbar ---------- */
+.scroll-bar {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .track {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .thumb {
+    -fx-background-color: #C9D9EE;
+    -fx-background-radius: 6;
+}
+
+.scroll-bar .increment-button,
+.scroll-bar .decrement-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.scroll-bar .increment-arrow,
+.scroll-bar .decrement-arrow {
+    -fx-shape: " ";
+    -fx-padding: 0;
+}
+
+/* ---------- Pesan ---------- */
+.error {
+    -fx-text-fill: #D93025;
+    -fx-font-weight: bold;
+}
+
+.pesan {
+    -fx-text-fill: #6B7C93;
+}
+
+/* ---------- Halaman detail ---------- */
+.baris-detail {
+    -fx-padding: 14 0 14 0;
+    -fx-border-color: transparent transparent #EEF3FA transparent;
+}
+
+.nilai {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1B2B3F;
+}
+
+.badge {
+    -fx-background-color: #EAF3FF;
+    -fx-text-fill: #1E6FD9;
+    -fx-font-weight: bold;
+    -fx-background-radius: 4;
+    -fx-padding: 3 12 3 12;
+}
+
+.harga-besar {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #1E6FD9;
+}
