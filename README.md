@@ -8,7 +8,8 @@ Aplikasi desktop sederhana berbasis **JavaFX** untuk mencatat produk toko (makan
 Menampilkan tabel produk, kolom pencarian, serta tombol Tambah Produk dan Lihat Detail.
 
 <p align="center">
-  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+  <img src="assets/tampilan.png" alt="Preview Aplikasi " width="350"/>
+  <img src="assets/tampilan2.png" alt="Preview Aplikasi " width="350"/>
 
 </p>
 
@@ -20,7 +21,7 @@ Menampilkan tabel produk, kolom pencarian, serta tombol Tambah Produk dan Lihat 
 Form untuk mengisi kode, nama, kategori, dan harga produk.
 
 <p align="center">
-  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+  <img src="assets/tambah.png" alt="Preview Tambah Produk" width="350"/>
 
 </p>
 
@@ -32,7 +33,9 @@ Form untuk mengisi kode, nama, kategori, dan harga produk.
 Nama kosong atau harga tidak valid akan ditolak dengan pesan kesalahan.
 
 <p align="center">
-  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+  <img src="assets/kode.png" alt="Preview exeption Kode Produk " width="350"/>
+  <img src="assets/produk.png" alt="Preview exeption Produk " width="350"/>
+  <img src="assets/harga.png" alt="Preview exeption Harga " width="350"/>
 
 </p>
 
@@ -44,7 +47,7 @@ Nama kosong atau harga tidak valid akan ditolak dengan pesan kesalahan.
 Produk dicari berdasarkan nama melalui tombol **Cari**.
 
 <p align="center">
-  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+  <img src="assets/cari.png" alt="Preview Searching" width="350"/>
 
 </p>
 
@@ -56,7 +59,7 @@ Produk dicari berdasarkan nama melalui tombol **Cari**.
 Menampilkan data produk yang dipilih dari tabel.
 
 <p align="center">
-  <img src="assets/View.png" alt="Preview Aplikasi Kalkulator BMI" width="350"/>
+  <img src="assets/detail.png" alt="Preview Detail Produk" width="350"/>
 
 </p>
 
